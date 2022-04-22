@@ -30,4 +30,11 @@ $(document).ready(function(){
     $(".before-input").hide();
     $("#the-reply").text(robotReply(userInput));
   });
+  $("#refresh-page").click(function() {
+    location.reload();
+  });
 });
+
+// $('#something').click(function() {
+//   location.reload();
+// });
