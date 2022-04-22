@@ -32,10 +32,7 @@ $(document).ready(function(){
   });
   $("#refresh-page").click(function() {
     $(".display-reply").hide();
-    $("#chat-with-robot").show();
-   
-
-    // $(location.reload());
-
+    $(".before-input").show();
+    $(".second-time-around").hide();
   });
 });
