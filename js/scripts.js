@@ -1,12 +1,16 @@
 const userInput = "7";
 function robotReply(userInput) {
   const userNumber = parseInt(userInput);
-  let arrayOfUserNumber = [];
+  let arrayEndsWithUserNum = [];
   for (let i=0; i<=userNumber; i+=1) {
-    arrayOfUserNumber.push(i);
+    arrayEndsWithUserNum.push(i);
   };
-  arrayOfUserNumber;
-
-  
-
+  let arrayReply = arrayEndsWithUserNum.map(function(number) {
+    if (number.toString().includes("3")) {
+      return "Won't you be my neighbor?";
+    } else {
+      return number;
+    }
+  });
+  return arrayReply;
 };
