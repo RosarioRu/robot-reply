@@ -14,8 +14,13 @@ Test: "Function should return an array of numbers from 0 to the inputted number.
 Code: robotReply(7);
 Expected Output: [0, 1, 2, 3, 4, 5, 6, 7];
 
-Test: "It should change every number that contains the number 3 to "Won't you be my neighbor?'"
+Test: "It should change every number that contains the number 3 to 'Won't you be my neighbor?'"
 Code: robotReply(7);
-Expected Output: [0, 1, 2, "Won't you be my neighbor?", 5, 6, 7];
+Expected Output: [0, 1, 2, "Won't you be my neighbor?",4, 5, 6, 7];
+
+Test: "It should also change every number that contains the number 2 to 'Boop!'(unless it contains a 3 - then it should still change it to 'Won't you be my neighbor?'"
+Code: robotReply(7);
+Expected Output: [0, 1, "boop!", "Won't you be my neighbor?",4, 5, 6, 7];
+
 
 
