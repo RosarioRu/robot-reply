@@ -26,6 +26,7 @@ $(document).ready(function(){
   $("form#chat-with-robot").submit(function(event){
     event.preventDefault();
     const userInput=$("input#number-input").val();
-    $("#reply").text(robotReply(userInput));
+    $(".display-reply").show();
+    $("#the-reply").text(robotReply(userInput));
   });
 });
