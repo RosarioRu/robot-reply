@@ -1,7 +1,7 @@
 const userInput = "7";
 let userNumber = parseInt(userInput);
-let array = [];
+let arrayOfUserNumber = [];
 for (let i=0; i<=userNumber; i+=1) {
-  array.push(i);
+  arrayOfUserNumber.push(i);
 };
-array;
+arrayOfUserNumber;
