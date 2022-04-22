@@ -31,10 +31,11 @@ $(document).ready(function(){
     $("#the-reply").text(robotReply(userInput));
   });
   $("#refresh-page").click(function() {
-    location.reload();
+    $(".display-reply").hide();
+    $("#chat-with-robot").show();
+   
+
+    // $(location.reload());
+
   });
 });
-
-// $('#something').click(function() {
-//   location.reload();
-// });
