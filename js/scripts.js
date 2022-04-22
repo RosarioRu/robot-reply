@@ -10,6 +10,8 @@ function robotReply(userInput) {
       return "Won't you be my neighbor?";
     } else if (number.toString().includes("2")) {
       return "Boop!";
+    } else if (number.toString().includes("1")) {
+      return "Beep!";
     } else {
       return number;
     }
