@@ -1,5 +1,5 @@
 //Business Logic 
-const userInput = "7"; //this will have to be in user-interface logic, I think...
+// const userInput = "7"; //this will have to be in user-interface logic, I think...
 function robotReply(userInput) {
   const userNumber = parseInt(userInput);
   let arrayEndsWithUserNum = [];
@@ -22,11 +22,10 @@ function robotReply(userInput) {
 
 //UI Logic 
 
-// UI Logic
-
 $(document).ready(function(){
-  $("form#").submit(function(event){
+  $("form#chat-with-robot").submit(function(event){
     event.preventDefault();
-    
+    const userInput=$("input#number-input").val();
+    $("#reply").text(robotReply(userInput));
   });
 });
