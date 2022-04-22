@@ -27,6 +27,7 @@ $(document).ready(function(){
     event.preventDefault();
     const userInput=$("input#number-input").val();
     $(".display-reply").show();
+    $(".before-input").hide();
     $("#the-reply").text(robotReply(userInput));
   });
 });
