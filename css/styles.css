@@ -1,12 +1,15 @@
-.body {
-  background-image: url(..body/img/robot.jpg);
-
+body {
+  background-image: url("../img/robot.jpg");
+  color:grey;
+ 
+}
 
 .before-input {
   box-sizing: border-box;
   border: 2px solid black;
   width: 50%;
   float: right;
+  
 }
 
 .display-reply {
