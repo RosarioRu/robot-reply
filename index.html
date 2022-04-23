@@ -10,8 +10,7 @@
 <body>
   
   <div class="container">
-    <!-- <audio src="audio/beeps2.mp3" autoplay> </audio> -->
-    <audio controls loop>
+    <audio controls>
       <source src="audio/beeps2.mp3" type="audio/mp3">
     </audio>
     <div class="before-input">
@@ -22,13 +21,13 @@
          <label for="number-input"></label>
          <input id="number-input" class="form-control" type="number" required>
         </div>
-        <button type="submit" class="btn btn-success">I like this one</button>
+        <button type="submit" class="btn btn-light">Submit number</button>
       </form>
     </div>
     <div class="display-reply">
       <h3>Mr. Robogers says:</h3>
       <p id="the-reply"></p>
-      <button type="submit" id="refresh-page" class="btn btn-success">Enter another number</button>
+      <button type="submit" id="refresh-page" class="btn btn-light">Enter another number</button>
     </div>
   </div>
 </body>
