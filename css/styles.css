@@ -35,3 +35,10 @@ body {
   background-color: rgb(186, 214, 211);
 }
 
+.credit {
+  font-size: x-small;
+  bottom: 0;
+  right: 20;  
+  position: fixed; 
+  width: 10%;
+}
