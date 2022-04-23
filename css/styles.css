@@ -11,6 +11,7 @@ body {
 }
 
 .before-input {
+  color: rgba(0, 0, 0, 0.702);
   box-sizing: border-box;
   border: 2px solid rgb(108, 114, 114);
   margin: 20px;
