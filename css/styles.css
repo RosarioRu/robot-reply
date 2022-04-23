@@ -1,18 +1,41 @@
+audio {
+  bottom: 0;
+  right: 0;  
+  position: fixed; 
+  width: 10%;
+}
+
 body {
-  background-image: url("../img/robot.jpg");
+  background-image:url("../img/robot.jpg");
   color:grey;
+  
  
 }
 
 .before-input {
   box-sizing: border-box;
-  border: 2px solid black;
+  border: 2px solid rgb(108, 114, 114);
+  margin: 20px;
+  margin-right: 50px;
+  margin-top: 100px;
+  padding: 20px;
   width: 50%;
   float: right;
+  background-color: rgb(186, 214, 211);
+
   
 }
 
 .display-reply {
   display:none;
+  box-sizing: border-box;
+  border: 2px solid rgb(108, 114, 114);
+  margin: 20px;
+  margin-right: 50px;
+  margin-top: 100px;
+  padding: 20px;
+  width: 50%;
+  float: right;
+  background-color: rgb(186, 214, 211);
 }
 
