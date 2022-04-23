@@ -15,7 +15,7 @@
 
 ## Description
 
-_This webpage was created as the third project for Epicodus following the JavaScript section on arrays and looping. The page asks users to enter a number. This input is the turned into an array to which "for" and ".map" loops are applied in order to transform the number into a "robot's" reply. Numbers containing a 3, 2, and 1 in the array are substituted with phrases and those not containing those numbers are unchanged. The result is returned to the user._
+_This webpage was created as the third project for Epicodus following the JavaScript section on arrays and looping. The page asks the users to enter a number. This input is the turned into an array to which "for" and ".map" loops are applied in order to transform the numbers into a "robot's" reply. Numbers containing a 3, 2, and 1 in the array are substituted with phrases and those that do not are unchanged. The result is returned to the user._
 
 
 ## Setup/Installation Requirements
@@ -28,7 +28,7 @@ _This webpage was created as the third project for Epicodus following the JavaSc
 
 * _If needed, stylesheet, image, audio, js file, and readme can also be opened from project home directory_
 
-* _(See Github page for this project](https://rosarioru.github.io/language-suggester2/)_
+* _(See Github page for this project](https://rosarioru.github.io/robot-reply/)_
 
 ## Known Bugs
 
