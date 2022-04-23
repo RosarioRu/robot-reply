@@ -1,5 +1,4 @@
 //Business Logic 
-// const userInput = "7"; //this will have to be in user-interface logic, I think...
 function robotReply(userInput) {
   const userNumber = parseInt(userInput);
   let arrayEndsWithUserNum = [];
