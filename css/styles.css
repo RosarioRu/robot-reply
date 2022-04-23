@@ -8,8 +8,6 @@ audio {
 body {
   background-image:url("../img/robot.jpg");
   color:grey;
-  
- 
 }
 
 .before-input {
@@ -21,9 +19,7 @@ body {
   padding: 20px;
   width: 50%;
   float: right;
-  background-color: rgb(186, 214, 211);
-
-  
+  background-color: rgb(186, 214, 211); 
 }
 
 .display-reply {
